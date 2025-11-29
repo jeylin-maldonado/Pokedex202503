@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+.btn {
+  @apply m-2 bg-green-600 text-white py-4 px-12 font-bold text-lg rounded-sm shadow-sm ;
+}
+html {
+  @apply w-full h-full min-w-0;
+}
+
+#root{
+  @apply min-h-screen min-w-screen flex w-full;
+}
+
+.btn.principal {
+  @apply bg-blue-500 text-slate-200;
+}
+
+
+body { @apply bg-slate-950 text-slate-100; }

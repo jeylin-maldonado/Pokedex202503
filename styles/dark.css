@@ -1,0 +1,29 @@
+
+body{
+  background: linear-gradient(180deg,#000000,#1a1a1a);
+  font-family: 'Segoe UI',sans-serif;
+  color:#fff;
+  padding:20px;
+}
+.card{
+  background:#111;
+  border:2px solid #e60023;
+  border-radius:12px;
+  padding:15px;
+  box-shadow:0 0 15px rgba(230,0,35,0.4);
+  transition:transform .2s, box-shadow .2s;
+}
+.card:hover{
+  transform:scale(1.03);
+  box-shadow:0 0 25px rgba(230,0,35,0.7);
+}
+.search{
+  margin-bottom:20px;
+}
+input{
+  padding:10px;
+  border-radius:8px;
+  border:2px solid #e60023;
+  background:#000;
+  color:#fff;
+}
